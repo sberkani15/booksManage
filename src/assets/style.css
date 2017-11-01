@@ -1,0 +1,11 @@
+.search_box {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.search_box .fields {
+    width: 30.33%;
+    position: relative;
+    display: inline-table;
+
+}

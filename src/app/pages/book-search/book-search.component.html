@@ -1,0 +1,21 @@
+<h1>Recherche de livres</h1>
+
+<div class="search_box">   
+        <div class="fields">
+        <label for="">Titre du livre</label>
+        <input type="text" name="title" id="" [(ngModel)]="book.title">
+    </div>
+    <div class="fields">
+         <label for="">Genre du livre</label>
+        <input type="text" name="author" id="" [(ngModel)]="book.genre" >
+    </div>
+    <div class="fields">
+         <label for="">Auteur du livre</label>
+        <input type="text" name="author" id="" [(ngModel)]="book.author">
+
+    </div>
+
+    <div class="search_button">
+        <button type="submit" (click)="search_book()">Recherche</button>    
+    </div>
+</div>
